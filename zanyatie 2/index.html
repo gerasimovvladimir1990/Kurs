@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>занятие 2</title>
+</head>
+<body>
+
+<!--не нумерованный список со вложенным не нумерованнм списком-->
+                     <ul>
+                        <li>Шампунь</li>
+                        <li>Чай</li>
+                        <li>Молоко</li>
+                        <li>Сладости</li>
+                            <ul>
+                                    <li>Мороженное</li>
+                                    <li>конфеты</li>
+                                    <li>сгущёнка</li>
+                            </ul>
+                        <li>Пельмени</li>
+                        <li>хлеб</li>
+
+                    </ul>
+
+<!--Создание нумерованного списка с вложенным не нумерованным-->
+
+
+                    <ol start="10" >
+                            <li>Шампунь</li>
+                            <li>Чай</li>
+                            <li>Сладости</li>
+                                <ul>
+                                    <li>Конфеты</li>
+                                    <li>Шоколадка</li>
+                                </ul>
+                            <li>Молоко</li>
+                     </ol>
+
+
+                <nav>
+                    <a href="#1">about</a>
+                    <a href="#2">home</a>
+                    <a href="#3">faq</a>
+                </nav>
+    <table border="1">
+        <caption>Пример работы таблицы</caption>
+        <tr>
+            <th>Январь</th>
+            <th>Февраль</th>
+            <th>Март</th>
+            <th>Апрель</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <!--обьединение ячеек в срочке при этом уменьшаем количество ячеек в строке-->
+            <td colspan="2">2 и 3</td>
+            <!--обьединение ячеек в столбце следующая строка имеет на 1 ячейку меньше.-->
+            <td rowspan="2">4 и 8</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+<h1>Формы</h1>
+<form name="search" action="/">
+  <input type="text" name="t" value="goit"/>
+   <input type="submit" value="пыщь"/>
+</form>
+</body>
+</html>
